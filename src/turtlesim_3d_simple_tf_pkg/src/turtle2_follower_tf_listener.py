@@ -9,13 +9,17 @@ if __name__=='__main__':
     rospy.init_node('tf_listener_turtle')
 
     listener = tf.TransformListener()
-    model_to_be_followed = int(input("Please insert # of object to be followed by turtle2: 1)turtle1 2)coke can: "))
+    model_to_be_followed = int(input("Please insert # of object to be followed by turtle2: 1)turtle1 2)coke can 3)fixed carrot tf 4)moving carrot tf: "))
     
     follower_model_name = 'turtle2'
     if model_to_be_followed == 1:
         model_to_be_followed_name = 'turtle1'
     elif model_to_be_followed == 2:
         model_to_be_followed_name = 'coke_can'
+    elif model_to_be_followed == 3:
+        model_to_be_followed_name = 'fixed_carrot'
+    elif model_to_be_followed == 4:
+        model_to_be_followed_name = 'moving_frame'
     else:
         print("Bad number inserted")
         sys.exit()

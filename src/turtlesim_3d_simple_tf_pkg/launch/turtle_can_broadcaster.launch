@@ -1,4 +1,6 @@
 <launch>
     <node pkg="turtlesim_3d_simple_tf_pkg" type="simple_tf_broadcaster.py" name="simple_tf_publisher" output="screen"/>
     <node pkg="turtlesim_3d_simple_tf_pkg" type="simple_can_tf_broadcaster.py" name="simple_can_tf_publisher" output="screen"/>
+    <node pkg="turtlesim_3d_simple_tf_pkg" type="fixed_extra_frame_pub.py" name="my_fixed_carrot_tf_broadcaster1" output="screen"/>
+    <node pkg="turtlesim_3d_simple_tf_pkg" type="moving_extra_frame_pub.py" name="my_moving_carrot_tf_broadcaster" output="screen"/>
 </launch>
