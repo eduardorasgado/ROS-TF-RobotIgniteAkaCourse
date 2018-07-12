@@ -1,0 +1,2 @@
+turtle_tf_3d:turtlesim_3d_simple_tf_pkg
+-DCATKIN_DEVEL_PREFIX=/home/canix/ros-tf-ria/devel -DCMAKE_INSTALL_PREFIX=/home/canix/ros-tf-ria/install -DCATKIN_WHITELIST_PACKAGES=turtle_tf_3d;turtlesim_3d_simple_tf_pkg -G Unix Makefiles

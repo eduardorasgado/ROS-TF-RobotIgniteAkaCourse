@@ -1,0 +1,8 @@
+prefix=/home/canix/ros-tf-ria/install
+
+Name: turtlesim_3d_simple_tf_pkg
+Description: Description of turtlesim_3d_simple_tf_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/canix/ros-tf-ria/install/lib 
+Requires: 
