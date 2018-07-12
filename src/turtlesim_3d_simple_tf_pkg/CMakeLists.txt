@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   tf
   turtle_tf_3d
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions

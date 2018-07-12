@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim_3d_simple_tf_pkg" type="simple_tf_broadcaster.py" name="simple_tf_publisher" output="screen"/>
+    <node pkg="turtlesim_3d_simple_tf_pkg" type="simple_can_tf_broadcaster.py" name="simple_can_tf_publisher" output="screen"/>
+</launch>

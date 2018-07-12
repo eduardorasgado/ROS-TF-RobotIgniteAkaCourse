@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/canix/ros-tf-ria/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/canix/ros-tf-ria/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/canix/ros-tf-ria/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/canix/ros-tf-ria/build"
-export PYTHONPATH="/home/canix/ros-tf-ria/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/canix/ros-tf-ria/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/canix/ros-tf-ria/src:$ROS_PACKAGE_PATH"
