@@ -5,7 +5,7 @@ Instructions:
 
 Simulation 1:
 
-run this on shell->
+run this on shell->\
 rosrun turtlesim_3d_simple_tf_pkg simple_tf_broadcaster.py\
 roslaunch turtle_tf_3d run_turtle_tf_listener.launch\
 rosrun rviz rviz
